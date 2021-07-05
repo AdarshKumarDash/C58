@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 450px;
+}
+#profile {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#home {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(red, yellow, skyblue);
+    opacity: 0.8;
+    display: table;
+    height: 0;
+}
+.homeDiv {
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Festive', cursive;
+}
+#headin {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+#name {
+    color: red;
+}
+h2 {
+    font-family: 'Yomogi', cursive;
+    font-size: 30px;
+    line-height: 1.2;
+}
+#bio {
+    padding: 50px;
+}
+.line {
+    margin: 25px auto;
+    height: 6px;
+    width: 70px;
+    background-color: black;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 20;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: skyblue;
+}
