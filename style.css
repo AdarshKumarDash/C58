@@ -28,7 +28,7 @@ h1 {
     font-size: 40px;
     font-family: 'Festive', cursive;
 }
-#headin {
+.headin {
     font-family: 'Zen Tokyo Zoo', cursive;
 }
 #name {
@@ -56,7 +56,7 @@ p {
 }
 .menu {
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 20;
@@ -66,7 +66,22 @@ p {
     float: left;
     padding: 10px 20px;
     font-size: 20px;
+    color: deepskyblue;
 }
 .links:hover {
-    background-color: skyblue;
+    background-color: #e04f0b;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+.l {
+    font-size: 25px;
+    color: #05eb3e;
+}
+.l:hover {
+    color: red;
 }
