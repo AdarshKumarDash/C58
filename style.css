@@ -85,3 +85,16 @@ a {
 .l:hover {
     color: red;
 }
+.contact1 i {
+    color: black;
+}
+.contact1 a {
+    font-size: 25px;
+    color: black;
+}
+.contact1 {
+    background-color: coral;
+}
+.github {
+    margin-left: -230px;
+}
